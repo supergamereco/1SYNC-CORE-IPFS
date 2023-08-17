@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  1sync_core_ipfs:
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: ./dockers/local/Dockerfile
+    container_name: 1sync_core_ipfs
+    ports:
+      - "18050:80"

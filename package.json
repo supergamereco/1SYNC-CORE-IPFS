@@ -1,0 +1,35 @@
+{
+  "name": "1sync-core-ipfs",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start_develop": "set NODE_ENV=develop&& node server.js"
+  },
+  "dependencies": {
+    "@ipld/dag-cbor": "^6.0.9",
+    "@ipld/dag-pb": "^2.1.9",
+    "aws-sdk": "^2.885.0",
+    "blockstore-datastore-adapter": "^2.0.1",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "datastore-core": "^6.0.6",
+    "datastore-s3": "^10.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "express-fileupload": "^1.4.0",
+    "form-data": "^4.0.0",
+    "ipfs-core": "^0.10.6",
+    "ipfs-http-client": "^58.0.0",
+    "ipfs-repo": "^12.0.0",
+    "it-to-buffer": "^2.0.0",
+    "multiformats": "^9.4.5"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
